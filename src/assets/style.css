@@ -5,10 +5,10 @@
   --box-border-radius: 3px;
   --media-border-radius: 8px;
   --dot-size: 8px;
-  --shadows: 0 1px 2px rgba(0, 0, 0, 0.02), 0 2px 4px rgba(0, 0, 0, 0.02),
-    0 4px 8px rgba(0, 0, 0, 0.02), 0 8px 16px rgba(0, 0, 0, 0.02);
+  --shadows: 0 1px 2px rgba(255, 255, 255, 0.02), 0 2px 4px rgba(255, 255, 255, 0.02),
+    0 4px 8px rgba(255, 255, 255, 0.02), 0 8px 16px rgba(255, 255, 255, 0.02);
   --box-margin: 10px;
-  --border-color: rgba(0, 0, 0, 0.05);
+  --border-color: rgba(255, 255, 255, 0.05);
   --link-color: var(--highlight-color);
   --icon-hover-filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(23deg)
     brightness(90%) contrast(90%);
@@ -16,7 +16,7 @@
     brightness(86%) contrast(88%);
   --cell-background-color: #000;
   --code-background-color: #000;
-  --secondary-color: #999;
+  --secondary-color: #6d6d6d;
 }
 
 body {
@@ -53,7 +53,7 @@ body {
   z-index: 1000;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: none;
@@ -84,12 +84,12 @@ a:hover {
 
 a.site-title:link,
 a.site-title:visited {
-  color: #333;
+  color: #c4c4c4;
   text-decoration: none;
 }
 
 a.site-title:hover {
-  color: #000;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -131,7 +131,7 @@ a.item-link:hover {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  border: 3px solid #fff;
+  border: 3px solid #000000;
   box-shadow: var(--shadows);
   display: block;
 }
@@ -172,7 +172,7 @@ a.item-link:hover {
   width: 20px;
   height: 20px;
   border-radius: 100%;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   box-shadow: var(--shadows);
   display: block;
 }
@@ -207,7 +207,7 @@ hr {
 
 #site-intro {
   padding: 10px 20px 10px 20px;
-  background-color: #fff;
+  background-color: #000000;
   font-size: 16px;
   line-height: 1.6;
   border-radius: var(--box-border-radius);
@@ -276,7 +276,7 @@ hr {
 }
 
 audio::-webkit-media-controls-play-button {
-  color: #000;
+  color: #ffffff;
 }
 
 audio::-webkit-media-controls-panel {
@@ -383,7 +383,7 @@ audio::-webkit-media-controls-panel {
 .nav-link:visited {
   flex: 1;
   text-decoration: none;
-  color: #333;
+  color: #a7a7a7;
   padding: 5px 10px 5px 10px;
   border-radius: var(--box-border-radius);
   display: inline-block;
